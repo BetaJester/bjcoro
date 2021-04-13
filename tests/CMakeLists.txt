@@ -1,3 +1,7 @@
+# Copyright(C) 2021 Glenn Duncan <betajester@betajester.com>
+# See README.md, LICENSE, or go to https://github.com/BetaJester/bjcoro
+# for details.
+
 include(FetchContent)
 FetchContent_Declare(Catch2 GIT_REPOSITORY https://github.com/catchorg/Catch2.git GIT_TAG v2.x)
 FetchContent_Declare(fmt        GIT_REPOSITORY https://github.com/fmtlib/fmt.git			GIT_TAG master)
