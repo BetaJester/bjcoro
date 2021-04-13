@@ -21,7 +21,7 @@ add_library(${thing} STATIC
 "include/bj/coro/generator.hpp"
 "src/dummy.cpp"
 "include/bj/coro/coroutine.hpp"
- "include/bj/coro/impl/traits_n_concepts.hpp" "include/bj/coro/eztask.hpp")
+ "include/bj/coro/impl/traits_n_concepts.hpp" "include/bj/coro/eztask.hpp" "include/bj/coro/fire_and_forget.hpp" "include/bj/coro/resume_new_thread.hpp")
 add_library(bj::coro ALIAS ${thing})
 target_include_directories(${thing} PUBLIC "include")
 pwropt_target_cxx_latest(${thing} PUBLIC)
